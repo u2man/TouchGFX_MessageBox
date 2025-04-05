@@ -1,0 +1,543 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\glass_theme_images_backgrounds_800x480_bubbles_toxic.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "QuestionflexButton",
+            "X": 20,
+            "Y": 294,
+            "Width": 282,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 11,
+                "TextId": "__SingleUse_D5CK",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 282,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "WaringflexButton",
+            "X": 20,
+            "Y": 229,
+            "Width": 282,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 11,
+                "TextId": "__SingleUse_BJKW",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 282,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "OKflexButton",
+            "X": 20,
+            "Y": 103,
+            "Width": 282,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 11,
+                "TextId": "__SingleUse_6RI9",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 282,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ErrorflexButton",
+            "X": 20,
+            "Y": 168,
+            "Width": 282,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 11,
+                "TextId": "__SingleUse_GGET",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 282,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "messageBoxWindow",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "CustomContainerDefinitionName": "MessageBoxWindow"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 269,
+            "Y": 24,
+            "Width": 263,
+            "Height": 25,
+            "TextId": "__SingleUse_237T",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 659,
+            "Y": 447,
+            "Width": 124,
+            "Height": 25,
+            "TextId": "__SingleUse_NHQA",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OKButtonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "OKflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ShowOKMessage"
+            }
+          },
+          {
+            "InteractionName": "ERRORButtonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ErrorflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ShowERRORMessage"
+            }
+          },
+          {
+            "InteractionName": "WARNINGButtonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "WaringflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ShowWARNINGMessage"
+            }
+          },
+          {
+            "InteractionName": "QUESTIONButtonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "QuestionflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ShowQUESTIONMessage"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MessageBoxWindow",
+        "Width": 800,
+        "Height": 480,
+        "Components": [
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "FileName": "BGFull.png",
+            "ModalWidth": 800,
+            "ModalHeight": 480,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "image1",
+                "X": 177,
+                "Y": 119,
+                "Width": 446,
+                "Height": 243,
+                "RelativeFilename": "MessageBoxBG.png"
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "CancelflexButton",
+                "X": 427,
+                "Y": 302,
+                "Width": 121,
+                "Height": 38,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "TextButtonStyle",
+                    "Y": 6,
+                    "TextId": "__SingleUse_1IKZ",
+                    "TextRotation": "0",
+                    "ColorReleased": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "ColorPressed": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    }
+                  },
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 121,
+                    "Height": 38,
+                    "LockToFlexButtonSize": true,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Image",
+                "Name": "MessageIcon",
+                "X": 360,
+                "Y": 136,
+                "Width": 72,
+                "Height": 72,
+                "RelativeFilename": "InfoIcon.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "MessageText",
+                "X": 186,
+                "Y": 229,
+                "Width": 429,
+                "Height": 69,
+                "TextId": "__SingleUse_T2R4",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "TextId": "__SingleUse_RI54",
+                  "UseBuffer": true,
+                  "BufferSize": 64
+                },
+                "WideTextAction": 4
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "OKflexButton",
+                "X": 251,
+                "Y": 302,
+                "Width": 121,
+                "Height": 38,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "TextButtonStyle",
+                    "Y": 6,
+                    "TextId": "__SingleUse_4V8O",
+                    "TextRotation": "0",
+                    "ColorReleased": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "ColorPressed": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    }
+                  },
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 121,
+                    "Height": 38,
+                    "LockToFlexButtonSize": true,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OKButttonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "OKflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "OKButton_Execute"
+            }
+          },
+          {
+            "InteractionName": "CancelButtonInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "CancelflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "CancelButton_Execute"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "MessageBoxExample",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "Simulator",
+    "ApplicationTemplateVersion": "2.0.0",
+    "ApplicationTemplateDescription": "Simulator Application Template",
+    "AvailableColorDepths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp",
+      "2": "LCD2bpp",
+      "4": "LCD4bpp",
+      "8": "LCD8bpp_ARGB2222",
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "AdditionalFeatures": [
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}
